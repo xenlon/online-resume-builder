@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div>Online</div><div>Resume</div><div>Builder</div></header>
+<main>
+    <div id="personal-container" class="main-container">
+        <h2 class="main-title">Personal Details</h2>
+        <label class="inner-title" for="full-name">Full Name</label>
+        <input id="full-name" type="text">
+        <label class="inner-title" for="phone-number">Phone Number</label>
+        <input id="phone-number" type="text">
+        <label class="inner-title" for="email-address">Email Address</label>
+        <input id="email-address" type="email">
+        <label class="inner-title" for="github-url">Github URL</label>
+        <input id="github-url" type="url">
+        <label class="inner-title" for="linkedin-url">Linkedin URL</label>
+        <input id="linkedin-url" type="url">
+    </div>
+
+    <div id="education-container" class="main-container">
+        <h2 class="main-title">Academic Information</h2>
+        <div class="inner-container">
+            <label class="inner-title">College Name<input class="college-name" type="text" required></label>
+            <label class="inner-title">Started<input class="duration-start" type="text"></label>
+            <label class="inner-title">Ended<input class="duration-end" type="text"></label>
+            <label class="inner-title">Degree Name<input class="degree-name" type="text"></label>
+            <label class="inner-title">Percentage<input class="percentage" type="number"></label>
+        </div>
+        <div class="inner-container">
+            <label class="inner-title">College Name<input class="college-name" type="text"></label>
+            <label class="inner-title">Started<input class="duration-start" type="text"></label>
+            <label class="inner-title">Ended<input class="duration-end" type="text"></label>
+            <label class="inner-title">Degree Name<input class="degree-name" type="text"></label>
+            <label class="inner-title">Percentage<input class="percentage" type="number"></label>
+        </div>
+        <div class="inner-container">
+            <label class="inner-title">College Name<input class="college-name" type="text"></label>
+            <label class="inner-title">Started<input class="duration-start" type="text"></label>
+            <label class="inner-title">Ended<input class="duration-end" type="text"></label>
+            <label class="inner-title">Degree Name<input class="degree-name" type="text"></label>
+            <label class="inner-title">Percentage<input class="percentage" type="number"></label>
+        </div>
+    </div>
+
+    <div id="experience-container" class="main-container">
+        <h2 class="main-title">Work Experience</h2>
+        <button id="add-experience" class="add-button">+</button>
+    </div>
+
+    <div id="project-container" class="main-container">
+        <h2 class="main-title">Personal Projects</h2>
+        <button id="add-project" class="add-button">+</button>
+    </div>
+
+
+    <div id="skill-and-interest-container" class="main-container">
+        <h2 class="main-title">Skills & Interests</h2>
+        <div id="technical-skill-container" class="inner-container">
+            <h3 class="inner-title">Technical Skills</h3>
+            <button id="add-technical-skill" class="add-button">+</button>
+        </div>
+
+        <div id="soft-skill-container" class="inner-container">
+            <h3 class="inner-title">Soft Skills</h3>
+            <button id="add-soft-skill" class="add-button">+</button>
+        </div>
+
+        <div id="interest-container" class="inner-container">
+            <h3 class="inner-title">Interests</h3>
+            <button id="add-interest" class="add-button">+</button>
+        </div>
+    </div>
+    <div id="submit-container"><button id="submit">Submit form</button></div>
+</main>
+<footer>Made by Xenlon</footer>
+<script src="script.js"></script>
+</body>
+</html>
