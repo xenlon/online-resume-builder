@@ -28,7 +28,7 @@ public class ResumeController {
         return file;
     }
 
-    @RequestMapping(value="/home", method = RequestMethod.GET)
+    @GetMapping("/home")
     public String data(){
         return "index.html";
     }
